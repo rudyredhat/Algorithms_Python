@@ -1,7 +1,9 @@
 # NOTES AND PROGRAM FOR ALGORITHMS CONCEPTS IN PYTHON
-```
-The content present here are self written without copying any README from somewhere (the topics or the content can be found somewhere) but after watching multiple set of paid courses this repo is created. This is what i can share with the opensource world for free to remove my fear as well as other fear w.r.t algorithms.
-```
+
+`The content present here are self written without copying any README from somewhere (the topics or the content can be found somewhere).`
+`But after watching multiple set of paid courses this repo is created. `
+`This is what i can share with the opensource world for free to remove my fear as well as other fear w.r.t algorithms.`
+
 ## TOPIC DETAILS
 1. CH01
   - 1.1 **[Find missing number , Coding interview problem](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch01/01_01)**
