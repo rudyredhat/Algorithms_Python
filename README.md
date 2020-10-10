@@ -24,3 +24,8 @@
 4. CH04 **Worst, Best, Average Case Analysis**
   - 4.1 **[Simple Summations](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch04/04_01/README.md)**
   - 4.2 **[Worst, Best, Average Case Analysis](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch04/04_02)**
+5 CH05 **1D Array & Applications || Data Structure Pattern**
+  - 5.1 **[Overview of 1D-Array Data Structure](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch05/05_01)**
+  - 5.2 **[Discussion of Storage Mappings for Array](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch05/05_02)**
+  - 5.3 **[Truth Behind Zero Indexing](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch05/05_03)**
+6 
