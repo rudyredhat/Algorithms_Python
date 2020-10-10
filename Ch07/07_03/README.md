@@ -1,3 +1,5 @@
+# Omega, Theta, Small o Notation  
+
 ## Aymptotic Approach - Lower Bond - Ω (Omega) - Time & Space
 - For the function that is being written up we have used , Big Oh (O) for the upper bound.
 - Now for the lower bond we are using Omega (Ω) .
