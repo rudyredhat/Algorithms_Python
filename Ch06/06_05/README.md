@@ -1,0 +1,11 @@
+# Applying Metrics || Find Missing Number
+- comparison to problem 4.1
+- `Adhoc - Naive`
+	- T.C = n+n+n+n+n = n^2
+	- S.C = 1 index var to check = constant units
+- `Adhoc - Sort + Scan`
+	- T.C = nlogn + (n-1) comparison
+	- S.C = constant units
+- `Data Structure - 1-d array`
+	- T.C = n+n operations
+	- S.C = n+2 units of space
