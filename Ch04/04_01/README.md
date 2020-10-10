@@ -38,7 +38,7 @@
 - take another empty array with n+1 arr index range
 ```
       0 1 2 3 4 5 6
-      0 0 0 0 0 0 0
+      θ θ O θ θ θ θ
 ```
-- so we can see extra memory space is being used, and we are crossing all the ele that are being found
+- so we can see extra memory space (2) is being used, and we are cutting down (θ) all the ele that are being found
 - so this type of thing we are using as collection , which is termed as `(data structure)` pattern in which sub-context we have `(1-d array)`
