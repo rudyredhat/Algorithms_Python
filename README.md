@@ -23,4 +23,4 @@
   - 3.4 **[Rate Of Growth Of Functions](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch03/03_04)**
 4. CH04 **Worst, Best, Average Case Analysis**
   - 4.1 **[Simple Summations](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch04/04_01/README.md)**
-  - 4.2
+  - 4.2 **[Worst, Best, Average Case Analysis](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch04/04_02)**
