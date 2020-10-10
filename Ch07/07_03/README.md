@@ -3,12 +3,12 @@
 ## Aymptotic Approach - Lower Bond - Ω (Omega) - Time & Space
 - For the function that is being written up we have used , Big Oh (O) for the upper bound.
 - Now for the lower bond we are using Omega (Ω) .
-- So for the function = `2n^2+50n+100 >= c.n^2` so there exists some `∃no, ∃c`, but the function is not greater than for every n.
+- So for the function = `2n^2+50n+100 >= c.n^2` so there exists some `∃no (n not), ∃c`, but the function is not greater than for every n.
 - For some point of n only the above function is satisfied, i.e `n >= no`
 ```           
 1)
      ∃no, ∃c
-  2n^2+50n+100 ≥ c.n2
+  2n^2+50n+100 ≥ c.n^2
                n ≥ no
 2) 2n^2+50n+100 ≈ Ω(n^2)
 
