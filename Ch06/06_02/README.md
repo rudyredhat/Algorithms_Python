@@ -1,0 +1,15 @@
+# Metrics for Algorithm Analysis
+- **2 metrics** = Time & Space
+- In computer we have `Main memory, Processor/CPU, Disk`
+- **Time Complexity**
+	- Aspects
+	- Independent of processor
+	- Independent of programming lang
+	- Independent of OS
+- The `low level operation` req for the operation
+- **Space Complexity**
+	- Initial we will talk about the main memory
+	- so word by word we access the ram 
+	- Aspects
+		- Independent of the hardware
+	- The `number of words` taken by the algorithm
