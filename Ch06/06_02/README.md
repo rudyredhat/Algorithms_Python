@@ -43,3 +43,13 @@
     - so in 1 scan of the array we get the answer, but we need an `extra` array otherwise we can loose an ele.
     - T.C = θ(n)
     - S.C = θ(n)
+- `Soln 3`
+    - But the thing is that we are using an `auxilary array` and when we are increasing the arrat size say 1 billion, it will become bigger and bigger.
+    - Any way we can `swap` the corresponding values, we can have our result.
+    ```
+        2 5 8 4 1 3 5
+        5 3 1 4 8 5 2   -- but the result is not in correct order
+        1 3 5 2 5 8 4   -- reverse/swap the half-half (k & independent) part (531) & (4852)
+    ```
+    - T.C = `n/2` op(1st stage) + `k/2` op(for k ele) + `(n-k)/2` op(for independent ele) = θ(n)
+    - S.C = O(1)
