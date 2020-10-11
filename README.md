@@ -6,7 +6,7 @@
 
 ## TOPIC DETAILS
 1. CH01 **Overview of Problems, Patterns & Analysis**
-  - 1.1 **[Find missing number , Coding interview problem](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch01/01_01)**
+  - 1.1 **[Find missing number || Coding interview problem](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch01/01_01)**
   - 1.2 **[Overview of Data Structure Patterns](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch01/01_02)**
   - 1.3 **[Overview of Storage Patterns](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch01/01_03)**
 2. CH02 **Algorithm Analysis**
