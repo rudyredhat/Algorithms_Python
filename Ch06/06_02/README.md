@@ -26,7 +26,7 @@
   - S.C = O(1)
 - `Soln 2`
     - `Adhoc Strategy:` any relation we can have we can ouput the ele to the exact index using circular tecq.
-    - so we are taking a temporary array or auxilary array , adding up the `(index + k)`
+    - so we are taking a `temporary array` or `auxilary array` , adding up the `(index + k)`
     - but how to get the index of the element after `k`?
     - so `(4+3) = 7`, we are taking `mod` where `7-7 = 0`, so shift the ele to 0.
     - similarly `(5+3) = 8`, `8-7 = 1`
