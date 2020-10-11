@@ -33,6 +33,22 @@ def rotatearr2(arr, k):
         arr[i] = aux[i]
 
 
+def reverse(arr, l, r):
+    while(l < r):
+        tmp = arr[l]
+        arr[l] = arr[r]
+        arr[r] = tmp
+        # l moves forward direction
+        l += 1
+        # r moves backward direction
+        r -= 1
+
+
+# T.C = θ(n) , S.C = O(1)
+def rotatearr3(arr, k):
+    reverse(arr, 0 , len(arr)-1)
+    reverse(arr, 0, k-1)
+    reverse(arr, k, len(arr)-1)
 
 
 def main():
@@ -45,16 +61,16 @@ def main():
     for i in range(n):
         arr[i] = i+1
     # int value calculate for the number of values to shift for diff k values
-    # k = n//2
-    k = n-1
+    k = n//2
+    # k = n-1
     # to test large values comment the below print
-    # print(arr)
+    print(arr)
     print(k)
     start = time.time()
-    rotatearr2(arr, k)
+    rotatearr3(arr, k)
     end = time.time()
     print("Time taken:", (end-start), "seconds")
-    # print(arr)
+    print(arr)
 
 
 if __name__ == '__main__':
