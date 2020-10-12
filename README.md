@@ -28,4 +28,9 @@
   - 5.1 **[Overview of 1D-Array Data Structure](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch05/05_01)**
   - 5.2 **[Discussion of Storage Mappings for Array](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch05/05_02)**
   - 5.3 **[Truth Behind Zero Indexing](https://github.com/rudyredhat/Algorithms_Python/tree/master/Ch05/05_03)**
-6. 
+6. CH06 **Adhoc Thinking || Algorithmic Pattern**
+  - 6.1 **[Overview of Adhoc Thinking](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_01/README.md)**
+  - 6.2 **[Rotate Array by K Elements || Coding Interview Problem](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_02/README.md)**
+    - **[array rotate.py](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_02/array%20rotate.py)**
+  - 6.3 **[Anagram Check || Coding Interview Problem](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_03/README.md)**
+    - **[anagram_str_check.py](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_03/anagram_str_check.py)**
