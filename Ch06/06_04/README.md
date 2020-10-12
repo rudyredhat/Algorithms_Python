@@ -43,3 +43,30 @@
   - In the same array we are having the sorting done, along with some extra var
   - T.C = nlon + (n-1) = θ(nlogn)
   - S.C = O(1)
+
+- `Soln3: DS Pattern: Array Lookup `
+  - for the single size array, we can have a hint present in the problem 
+  - take one extra `auxilary` array of same size
+  - initially set all the value of `aux` array to false
+  - now iterate through the main array one by one and set the values to true
+  - at the third iteration we have found `2` once again, so we can mark it as duplicate rather than scanning the full array
+  ```
+  n = 5
+  4 3 2 1 2
+  0 1 2 3 4
+  
+  f f f f f --- 1st
+  0 1 2 3 4
+  
+  f f t t t --- 2nd
+  0 1 2 3 4
+  
+  f f t t t --- 3rd
+  0 1 2 3 4
+  ```
+  - so here we are using a extra space and can be called as a `data structure` , we will look into later.
+  - 1 iteration, 1 comparison and 1 update and all we can call this as low level operation 
+  - just if the ele is at last , we can have this `n` operation as twice
+  - for space we just need extra space of n units
+  - T.C = 2*n = θ(n)
+  - S.C = θ(n)
