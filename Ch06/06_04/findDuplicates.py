@@ -2,10 +2,21 @@ import sys
 import time
 
 
-def findDuplicate(arr):
+def findDuplicate2(arr):
+    n = len(arr)
+    # sort the list/array
+    arr.sort()
+    # no we need to start from next index , means from 1st index to nth index
+    for i in range(1, n):
+        # print(arr[i]," ",arr[i-1])
+        if arr[i] == arr[i-1]:
+            return arr[i]
+    return sys.minvalue
+
+
+def findDuplicate1(arr):
     n = len(arr)
     for i in range(n):
-        # no we need to start from next index
         for j in range(i+1, n):
             if arr[i] == arr[j]:
                 return arr[i]
@@ -37,9 +48,10 @@ def main():
     print(testCase1(arr))
     print(arr)
     start = time.time()
-    print(findDuplicate(arr))
+    # print(findDuplicate1(arr))
+    print(findDuplicate2(arr))
     end = time.time()
-    print("Time Taken: ", end-start)
+    print("Time Taken: ", int(end-start))
 
 
 if __name__ == '__main__':
