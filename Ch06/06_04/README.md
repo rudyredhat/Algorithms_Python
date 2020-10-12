@@ -61,8 +61,8 @@
   f f t t t --- 2nd
   0 1 2 3 4
   
-  f f t t t --- 3rd
-  0 1 2 3 4
+  f f tt t t --- 3rd
+  0 1 2  3 4
   ```
   - so here we are using a extra space and can be called as a `data structure` , we will look into later.
   - 1 iteration, 1 comparison and 1 update and all we can call this as low level operation 
