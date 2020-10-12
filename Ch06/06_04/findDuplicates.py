@@ -2,6 +2,24 @@ import sys
 import time
 
 
+def findDuplicate3(arr):
+    n = len(arr)
+    # create an aux array with boolean as false
+    aux = [bool]*n
+    # iterate through the main array and lookup in the aux array
+    for i in range(n):
+        # take the ith ele
+        tmp = arr[i]
+        # now look up the ith ele in the aux array
+        if aux[tmp] == True:
+            # we got the duplicate and return it
+            return tmp
+        # otherwise update the aux array to True
+        aux[tmp] = True
+    return sys.minvalue
+
+
+
 def findDuplicate2(arr):
     n = len(arr)
     # sort the list/array
@@ -20,7 +38,7 @@ def findDuplicate1(arr):
         for j in range(i+1, n):
             if arr[i] == arr[j]:
                 return arr[i]
-    # if we found no where a match, for this we used below and ret False
+    # if we found no match, for this we used below and ret False
     return sys.minvalue
 
 
@@ -49,9 +67,10 @@ def main():
     print(arr)
     start = time.time()
     # print(findDuplicate1(arr))
-    print(findDuplicate2(arr))
+    # print(findDuplicate2(arr))
+    print(findDuplicate3(arr))
     end = time.time()
-    print("Time Taken: ", int(end-start))
+    print("Time Taken: ", float(end-start))
 
 
 if __name__ == '__main__':
