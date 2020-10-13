@@ -2,6 +2,21 @@ import sys
 import time
 
 
+def findDuplicate4(arr):
+    n = len(arr)
+    # iterate through the main array and lookup in the  array
+    for i in range(n):
+        # take the absolute of ith ele
+        tmp = abs(arr[i])
+        # now look up the ith ele in the aux array
+        if arr[tmp] < 0:
+            # we got the duplicate and return it
+            return tmp
+        # otherwise update the array to Negative value
+        arr[tmp] *= -1
+    return sys.minvalue
+
+
 def findDuplicate3(arr):
     n = len(arr)
     # create an aux array with boolean as false
@@ -68,7 +83,8 @@ def main():
     start = time.time()
     # print(findDuplicate1(arr))
     # print(findDuplicate2(arr))
-    print(findDuplicate3(arr))
+    # print(findDuplicate3(arr))
+    print(findDuplicate4(arr))
     end = time.time()
     print("Time Taken: ", float(end-start))
 
