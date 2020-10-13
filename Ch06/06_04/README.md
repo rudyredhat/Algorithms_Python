@@ -70,3 +70,35 @@
   - for space we just need extra space of n units
   - T.C = 2*n = θ(n)
   - S.C = θ(n)
+- `Soln4: Adhoc: Negation Trick`
+  - to improve the above soln 3 and simply it without using extra space
+  - so if we will check the problem, it is mentioned that range is `1 to n-1`, so we can use `inplace memory`.
+  - go to the `0` index and look at the value present in that and directly jump to that index and make the value as `-ve`
+  - e.g `0 index` contains `4`, now jump to `4 index` and the value there is `2` make it `-2`
+  - Now to go to `second ele` repeat the `same` whenever the value is seen `first time`.
+  - Check for the `last iteration`, where we found the negative number once again, so the `val` at that index is `duplicate`.
+  - As the range was given `+ve` and was from `1 to n-1` , so we can achieve this solution.
+  ```
+  n = 5
+  4 3 2 1 2
+  0 1 2 3 4
+  
+  4 3 2 1 -2
+  0 1 2 3  4   -- 1st 
+  
+  4 3 2 -1 -2  
+  0 1 2  3  4  -- 2nd
+  
+  4 3 -2 -1 -2
+  0 1  2  3  4  -- 3rd
+  
+  4 -3 -2 -1 -2
+  0  1  2  3  4  -- 4th
+  
+  4 -3 -2 -1 -2
+  0  1  2  3  4  -- 5th , check at 4th index it is val = 2 and move to index = 2 and there it is already negative
+  ```
+  - So the core low level op we are doing is, comparison and updation of the value, for c elements and we are performing n times
+  - Space is constant , as we are not using any extra space.
+  - T.C = c*n = θ(n)
+  - S.C = O(1)
