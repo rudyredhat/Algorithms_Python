@@ -1,4 +1,4 @@
-# Find Duplicates in an Array -PART 1 || Coding Interview Problem  
+# Find Duplicates in an Array || Coding Interview Problem  
 - **Prob:**`Given an array consisting of n integers in which each element is between 1 to n-1. Find an efficient algorithm that return any duplicate integer exists in the array`.
 ```
   n = 5
