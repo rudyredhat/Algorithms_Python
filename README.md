@@ -34,3 +34,6 @@
     - **[array rotate.py](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_02/array%20rotate.py)**
   - 6.3 **[Anagram Check || Coding Interview Problem](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_03/README.md)**
     - **[anagram_str_check.py](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_03/anagram_str_check.py)**
+  - 6.4 **[Find Duplicates in an Array -PART 1 || Coding Interview Problem](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_04/README.md)**
+    - **[findDuplicates.py](https://github.com/rudyredhat/Algorithms_Python/blob/master/Ch06/06_04/findDuplicates.py)**
+  
