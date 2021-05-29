@@ -10,7 +10,7 @@
     |_ Amortized Analysis (will discuss later)
 ```
 - So some consider that O is best case, θ  worst case & Ω is avg case. --> `this is completely meaningless understanding.`
-- Best Case cannot be used for the indicator of the algorithm, because we cannot the future.
+- Best Case cannot be used for the indicator of the algorithm, because we cannot predict the future.
 - Worst Case can be predicted with the whole set of life time. `Gauranteed Performance` , e.g Covid.
 - Avg Case: Estimate diff set of inputs, not with 2-3 inputs even if it coming as worst case. `Practicle Performance`.g T20.
 - Always we must focus on the Worst Case for the algorithms
